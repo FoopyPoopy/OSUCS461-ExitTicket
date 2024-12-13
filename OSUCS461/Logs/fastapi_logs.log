@@ -1,0 +1,82 @@
+2024-12-13 22:03:43,847 - fastAPI - INFO - HP-API - local - Incoming request: GET http://localhost:8000/docs.
+2024-12-13 22:03:43,848 - fastAPI - INFO - HP-API - local - Handling function: swagger_ui_html
+2024-12-13 22:03:43,850 - fastAPI - INFO - HP-API - local - Completed request in 0.0009 seconds
+2024-12-13 22:03:43,851 - fastAPI - INFO - HP-API - local - Response status code: 200
+2024-12-13 22:03:44,177 - fastAPI - INFO - HP-API - local - Incoming request: GET http://localhost:8000/openapi.json.
+2024-12-13 22:03:44,178 - fastAPI - INFO - HP-API - local - Handling function: openapi
+2024-12-13 22:03:44,188 - fastAPI - INFO - HP-API - local - Completed request in 0.0093 seconds
+2024-12-13 22:03:44,190 - fastAPI - INFO - HP-API - local - Response status code: 200
+2024-12-13 22:04:09,654 - fastAPI - INFO - HP-API - local - Incoming request: POST http://localhost:8000/v1/users.
+2024-12-13 22:04:09,657 - fastAPI - INFO - HP-API - local - Handling function: create_user
+2024-12-13 22:04:09,747 - fastAPI - INFO - HP-API - local - Completed request in 0.0888 seconds
+2024-12-13 22:04:09,748 - fastAPI - INFO - HP-API - local - Response status code: 500
+2024-12-13 22:06:17,590 - fastAPI - INFO - HP-API - local - Incoming request: GET http://localhost:8000/docs.
+2024-12-13 22:06:17,591 - fastAPI - INFO - HP-API - local - Handling function: swagger_ui_html
+2024-12-13 22:06:17,593 - fastAPI - INFO - HP-API - local - Completed request in 0.0012 seconds
+2024-12-13 22:06:17,594 - fastAPI - INFO - HP-API - local - Response status code: 200
+2024-12-13 22:06:17,725 - fastAPI - INFO - HP-API - local - Incoming request: GET http://localhost:8000/openapi.json.
+2024-12-13 22:06:17,726 - fastAPI - INFO - HP-API - local - Handling function: openapi
+2024-12-13 22:06:17,740 - fastAPI - INFO - HP-API - local - Completed request in 0.0126 seconds
+2024-12-13 22:06:17,742 - fastAPI - INFO - HP-API - local - Response status code: 200
+2024-12-13 22:06:25,537 - fastAPI - INFO - HP-API - local - Incoming request: POST http://localhost:8000/v1/users.
+2024-12-13 22:06:25,539 - fastAPI - INFO - HP-API - local - Handling function: create_user
+2024-12-13 22:06:25,563 - fastAPI - ERROR - HP-API - local - 1 validation error for User
+time_created
+  Input should be a valid string [type=string_type, input_value=1734127585, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2024-12-13 22:06:25,565 - fastAPI - INFO - HP-API - local - Completed request in 0.0224 seconds
+2024-12-13 22:06:25,566 - fastAPI - INFO - HP-API - local - Response status code: 500
+2024-12-13 22:07:39,585 - fastAPI - INFO - HP-API - local - Incoming request: POST http://localhost:8000/v1/users.
+2024-12-13 22:07:39,587 - fastAPI - INFO - HP-API - local - Handling function: create_user
+2024-12-13 22:07:39,595 - fastAPI - INFO - HP-API - local - Completed request in 0.0077 seconds
+2024-12-13 22:07:39,596 - fastAPI - INFO - HP-API - local - Response status code: 200
+2024-12-13 22:07:55,632 - fastAPI - INFO - HP-API - local - Incoming request: GET http://localhost:8000/v1/users.
+2024-12-13 22:07:55,633 - fastAPI - INFO - HP-API - local - Handling function: get_all_users
+2024-12-13 22:07:55,647 - fastAPI - INFO - HP-API - local - Completed request in 0.0128 seconds
+2024-12-13 22:07:55,648 - fastAPI - INFO - HP-API - local - Response status code: 200
+2024-12-13 22:09:21,393 - fastAPI - INFO - HP-API - local - Incoming request: GET http://localhost:8000/v1/users/2.
+2024-12-13 22:09:21,394 - fastAPI - INFO - HP-API - local - Handling function: get_user
+2024-12-13 22:09:21,396 - fastAPI - ERROR - HP-API - local - 'str' object has no attribute 'name'
+2024-12-13 22:09:21,397 - fastAPI - INFO - HP-API - local - Completed request in 0.0022 seconds
+2024-12-13 22:09:21,398 - fastAPI - INFO - HP-API - local - Response status code: 500
+2024-12-13 22:16:12,694 - fastAPI - INFO - HP-API - local - Incoming request: GET http://localhost:8000/v1/users.
+2024-12-13 22:16:12,696 - fastAPI - INFO - HP-API - local - Handling function: get_all_users
+2024-12-13 22:16:12,706 - fastAPI - INFO - HP-API - local - Completed request in 0.0093 seconds
+2024-12-13 22:16:12,707 - fastAPI - INFO - HP-API - local - Response status code: 200
+2024-12-13 22:17:23,303 - fastAPI - INFO - HP-API - local - Incoming request: GET http://localhost:8000/v1/users/dc78d8f5033d2737bfb0f1ce2a9522d7.
+2024-12-13 22:17:23,304 - fastAPI - INFO - HP-API - local - Handling function: get_user
+2024-12-13 22:17:23,306 - fastAPI - ERROR - HP-API - local - 'str' object has no attribute 'name'
+2024-12-13 22:17:23,308 - fastAPI - INFO - HP-API - local - Completed request in 0.0024 seconds
+2024-12-13 22:17:23,309 - fastAPI - INFO - HP-API - local - Response status code: 500
+2024-12-13 22:18:12,531 - fastAPI - INFO - HP-API - local - Incoming request: GET http://localhost:8000/v1/users/dc78d8f5033d2737bfb0f1ce2a9522d7.
+2024-12-13 22:18:12,533 - fastAPI - INFO - HP-API - local - Handling function: get_user
+2024-12-13 22:18:12,555 - fastAPI - INFO - HP-API - local - Completed request in 0.0215 seconds
+2024-12-13 22:18:12,557 - fastAPI - INFO - HP-API - local - Response status code: 200
+2024-12-13 22:18:31,922 - fastAPI - INFO - HP-API - local - Incoming request: PUT http://localhost:8000/v1/users/dc78d8f5033d2737bfb0f1ce2a9522d7.
+2024-12-13 22:18:31,923 - fastAPI - INFO - HP-API - local - Handling function: update_user
+2024-12-13 22:18:31,952 - fastAPI - INFO - HP-API - local - Completed request in 0.0280 seconds
+2024-12-13 22:18:31,953 - fastAPI - INFO - HP-API - local - Response status code: 200
+2024-12-13 22:18:48,803 - fastAPI - INFO - HP-API - local - Incoming request: DELETE http://localhost:8000/v1/users/dc78d8f5033d2737bfb0f1ce2a9522d7.
+2024-12-13 22:18:48,806 - fastAPI - INFO - HP-API - local - Handling function: delete_user
+2024-12-13 22:18:48,819 - fastAPI - INFO - HP-API - local - Completed request in 0.0101 seconds
+2024-12-13 22:18:48,820 - fastAPI - INFO - HP-API - local - Response status code: 200
+2024-12-13 22:18:59,687 - fastAPI - INFO - HP-API - local - Incoming request: GET http://localhost:8000/v1users/dc78d8f5033d2737bfb0f1ce2a9522d7/posts.
+2024-12-13 22:18:59,698 - fastAPI - INFO - HP-API - local - Handling function: get_all_user_post
+2024-12-13 22:18:59,727 - fastAPI - INFO - HP-API - local - Completed request in 0.0278 seconds
+2024-12-13 22:18:59,729 - fastAPI - INFO - HP-API - local - Response status code: 200
+2024-12-13 22:19:17,945 - fastAPI - INFO - HP-API - local - Incoming request: POST http://localhost:8000/v1users/dc78d8f5033d2737bfb0f1ce2a9522d7/posts.
+2024-12-13 22:19:17,946 - fastAPI - INFO - HP-API - local - Handling function: create_user_post
+2024-12-13 22:19:17,959 - fastAPI - INFO - HP-API - local - Completed request in 0.0120 seconds
+2024-12-13 22:19:17,961 - fastAPI - INFO - HP-API - local - Response status code: 200
+2024-12-13 22:19:55,128 - fastAPI - INFO - HP-API - local - Incoming request: GET http://localhost:8000/v1users/dc78d8f5033d2737bfb0f1ce2a9522d7/posts/512c6fd7565e5e8973890656264b6f70.
+2024-12-13 22:19:55,139 - fastAPI - INFO - HP-API - local - Handling function: get_user_post
+2024-12-13 22:19:55,143 - fastAPI - INFO - HP-API - local - Completed request in 0.0024 seconds
+2024-12-13 22:19:55,145 - fastAPI - INFO - HP-API - local - Response status code: 200
+2024-12-13 22:20:10,402 - fastAPI - INFO - HP-API - local - Incoming request: GET http://localhost:8000/docs.
+2024-12-13 22:20:10,403 - fastAPI - INFO - HP-API - local - Handling function: swagger_ui_html
+2024-12-13 22:20:10,404 - fastAPI - INFO - HP-API - local - Completed request in 0.0004 seconds
+2024-12-13 22:20:10,405 - fastAPI - INFO - HP-API - local - Response status code: 200
+2024-12-13 22:20:10,550 - fastAPI - INFO - HP-API - local - Incoming request: GET http://localhost:8000/openapi.json.
+2024-12-13 22:20:10,551 - fastAPI - INFO - HP-API - local - Handling function: openapi
+2024-12-13 22:20:10,563 - fastAPI - INFO - HP-API - local - Completed request in 0.0114 seconds
+2024-12-13 22:20:10,564 - fastAPI - INFO - HP-API - local - Response status code: 200
